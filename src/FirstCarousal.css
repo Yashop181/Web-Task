@@ -1,0 +1,95 @@
+.carousel-container {
+    position: relative; /* Ensure buttons are positioned relative to this container */
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel .carousel-slider {
+    display: flex;
+    align-items: center;
+  }
+  
+  .carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%; /* Adjust based on your needs */
+  }
+  
+  .carousel .carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust based on your needs */
+  }
+  
+  .button-container {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+  }
+  
+  .button-container .btn1 {
+    background-color: #537AD2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0; /* Remove border-radius */
+    transition: all 0.3s ease; /* Smooth transition for size changes */
+  }
+  .button-container .btn2 {
+    background-color: #F2651C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0; /* Remove border-radius */
+    transition: all 0.3s ease; /* Smooth transition for size changes */
+  }
+  .button-container .btn3 {
+    background-color: #805F9E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0; /* Remove border-radius */
+    transition: all 0.3s ease; /* Smooth transition for size changes */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .button-container .btn {
+      font-size: 12px; /* Smaller button text */
+      padding: 8px 16px; /* Adjust padding to fit the smaller size */
+    }
+  
+    .carousel .carousel-item {
+      padding: 0 2%; /* Less padding on smaller screens */
+    }
+    
+    .carousel-container {
+      width: 100%; /* Adjust width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button-container .btn {
+      font-size: 10px; /* Even smaller button text */
+      padding: 6px 12px; /* Smaller padding for very small screens */
+    }
+  
+    .carousel .carousel-item img {
+      max-height: 150px; /* Reduce image height on very small screens */
+    }
+    
+    .carousel-container {
+      width: 100%; /* Adjust width on very small screens */
+    }
+  }
+  

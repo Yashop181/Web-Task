@@ -1,0 +1,14 @@
+.new-carousel-product-item {
+    padding: 0 10px; /* Adjust the value as needed for the desired gap */
+  }
+  
+  .new-carousel-product-image {
+    width: 100%;
+    display: block;
+  }
+  
+  .new-carousel-product-detail {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

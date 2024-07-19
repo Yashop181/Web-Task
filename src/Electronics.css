@@ -1,0 +1,12 @@
+.electronics-start
+{
+    display: flex;
+    justify-content: space-between; /* Changed from space-evenly to space-between for more control */
+    gap: 20%; /* Increase this value to add more gap between items */
+    margin: 3%;
+}
+.discount-logo
+{
+    color: orangered;
+    font-size: 30px;
+}
