@@ -8,20 +8,30 @@ import FirstCarousal from './FirstCarousal'
 import Offer from './Offer'
 import Customer from './Customer'
 import Croud from './Croud'
+import AnotherImages from './AnotherImages'
+import ElectronicsSection from './ElectronicsSection'
+import Ac from './Ac'
+import Value from './Value'
 
 const Layout = () => {
   return (
     <div>
         <Navbar/>
       <FirstCarousal/>
-        <h1>hello</h1>
+      <br/>
+
         <Carousal/>
         <AnotherImage/>
-        <Electronics/>
         <NewCarousal/>
         <Offer/>
         <Customer/>
-        {/* <Croud/> */}
+        <Croud/>
+        <h1>hi</h1>
+        <AnotherImages/>
+
+        <Electronics/>
+        <Ac/>
+        <Value/>
 
 
     </div>

@@ -1,0 +1,39 @@
+.carousel-container {
+    margin: 0 auto;
+
+
+  }
+  
+  .carousel-slide {
+    position: relative;
+    padding: 10px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.2;
+    white-space: pre-wrap; /* Allows new lines in the text */
+  }
+  
+  /* Scoped styles for prev and next buttons */
+  .carousel-container .slick-prev,
+  .carousel-container .slick-next {
+    font-size: 24px;
+    color: black;
+  }
+  
+.open-crowd{
+    background-color: #86B2E9;
+}

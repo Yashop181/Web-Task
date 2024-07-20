@@ -1,0 +1,57 @@
+.electronics-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .electronics-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-container {
+    margin-right: 10px;
+  }
+  
+  .electronics-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff8c42; /* Adjust color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .electronics-info h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .electronics-info p {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .electronics-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .view-all-link {
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .view-all-link:hover {
+    text-decoration: underline;
+  }
+  
+  .view-all-link .anticon {
+    margin-left: 5px;
+  }
+  

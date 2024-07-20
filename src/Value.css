@@ -1,0 +1,35 @@
+.side-by-side {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Adjust the gap between images as needed */
+    padding: 1%;
+  }
+  
+  .image-container {
+    flex: 1;
+    max-width: 45%; /* Adjust the max-width to fit your design */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+/* Responsive Design */
+@media (max-width: 718px) {
+    .side-by-side {
+      display: block;
+      text-align: center; /* Center images when stacked */
+    }
+  
+    .image-container {
+      max-width: 100%; /* Full width for smaller screens */
+      margin-bottom: 20px; /* Add space between stacked images */
+    }
+  
+    .image-container:last-child {
+      margin-bottom: 0; /* Remove bottom margin from last image */
+    }
+  }
