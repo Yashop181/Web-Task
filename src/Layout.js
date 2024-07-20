@@ -12,6 +12,9 @@ import AnotherImages from './AnotherImages'
 import ElectronicsSection from './ElectronicsSection'
 import Ac from './Ac'
 import Value from './Value'
+import Deals from './Deals'
+import Footer from './Footer'
+import Lastfooter from './Lastfooter'
 
 const Layout = () => {
   return (
@@ -26,13 +29,16 @@ const Layout = () => {
         <Offer/>
         <Customer/>
         <Croud/>
-        <h1>hi</h1>
+        <br/>
         <AnotherImages/>
 
         <Electronics/>
         <Ac/>
         <Value/>
-
+        <Deals/>
+        <Ac/>
+        <Footer/>
+        <Lastfooter/>
 
     </div>
   )
