@@ -8,7 +8,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart} from "react-icons/fa";
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">

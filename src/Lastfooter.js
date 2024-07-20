@@ -19,8 +19,8 @@ const Lastfooter = () => {
         </div>
       </div>
       <div className="description">
-        <p>Made a decision to buy furniture online? At Furlenco, we’ve always worked around the goal of making buying furniture easy. Now, we’re working on making it easier.</p>
-        <p>Furniture has steadfastly been the hidden hero of the house and therefore, to buy furniture is to truly invest. We don’t fully realise the difference between an ‘unfurnished’ home and a ‘furnished’ one until we step into one and figure out how important it is to buy furniture the right way. Memories might be remembered and poems might be written around the different...</p>
+        <p>Made a decision to buy furniture online? At Furlenco, we've always worked around the goal of making buying furniture easy. Now, we're working on making it easier.</p>
+        <p>Furniture has steadfastly been the hidden hero of the house and therefore, to buy furniture is to truly invest. We don't fully realise the difference between an ‘unfurnished’ home and a ‘furnished’ one until we step into one and figure out how important it is to buy furniture the right way. Memories might be remembered and poems might be written around the different...</p>
       </div>
     </footer>
   );
