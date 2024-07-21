@@ -5,7 +5,7 @@ const Electronics = () => {
   return (
     <div>
         <div className="electronics-start">
-            <div><RiDiscountPercentFill className="discount-logo" /> Electronics  to Rent  </div>
+            <div><RiDiscountPercentFill className="discount-logo" />Electronics to Rent</div>
             <div>View All <FaArrowRight /> </div>
         </div>
 

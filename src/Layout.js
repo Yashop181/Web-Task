@@ -43,6 +43,7 @@ const Layout = () => {
         <Value/>
         <Deals/>
         <Ac/>
+        <br/>
         <Footer/>
         <Lastfooter/>
 

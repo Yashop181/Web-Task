@@ -87,3 +87,15 @@
     width: 90%; /* Adjust the width as needed */
 
 }
+@media (max-width: 475px) {
+
+  .video-call
+  {
+    width: 100%;
+  }
+  .image-section
+  {
+    width: 100%;
+  }
+
+}
