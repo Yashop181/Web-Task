@@ -1,14 +1,51 @@
+/* Container for the carousel */
+.p-carousel .p-carousel-content {
+  padding: 0 10px; /* Space on the sides of the carousel content */
+}
+
+/* Style for each product item in the carousel */
 .new-carousel-product-item {
-    padding: 0 10px; /* Adjust the value as needed for the desired gap */
-  }
-  
-  .new-carousel-product-image {
-    width: 100%;
-    display: block;
-  }
-  
-  .new-carousel-product-detail {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+
+  border: 1px solid #ddd; /* Border for the card */
+  border-radius: 8px; /* Rounded corners for the card */
+  overflow: hidden; /* Hide any overflow content */
+  background: white; /* Background color for the card */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow for a card effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+  width: calc(100% - 20px); /* Ensure item width fits within container, considering padding */
+  max-width: 300px; /* Set a maximum width for the item */
+}
+
+/* Hover effect for the product item */
+.new-carousel-product-item:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Enhanced shadow on hover */
+  transform: scale(1.05); /* Slightly enlarge the item on hover */
+}
+
+/* Style for the product image */
+.new-carousel-product-image {
+  width: 100%;
+  height: auto; /* Ensure the image maintains its aspect ratio */
+  object-fit: cover; /* Cover the container area */
+}
+
+/* Style for the product detail */
+.new-carousel-product-detail {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Optional: Style for product name, description, and price */
+.new-carousel-product-detail h5 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.new-carousel-product-detail p {
+  margin: 5px 0;
+  color: #666; /* Color for text */
+}

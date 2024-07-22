@@ -1,0 +1,51 @@
+.custom-navbar {
+    background-color: #f8f9fa; /* Light background for a clean look */
+    padding: 0.5rem 1rem; /* Padding around the navbar */
+    border-bottom: 1px solid #e9ecef; /* Subtle border at the bottom */
+  }
+  
+  .custom-navbar .nav-links .nav-item {
+    margin-right: 1rem; /* Spacing between nav items */
+  }
+  
+  .custom-navbar .nav-dropdown .dropdown-menu {
+    border-radius: 0.5rem; /* Rounded corners for dropdowns */
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    padding: 0.5rem;
+  }
+  
+  .search-button {
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .nav-icon {
+    margin-left: 1rem;
+    font-size: 1.25rem; /* Larger icons */
+  }
+  
+  .nav-icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .navbar-brand img {
+    max-height: 50px; /* Adjust logo size */
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff; /* Custom color for the toggle button */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23007bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
+  }
+  

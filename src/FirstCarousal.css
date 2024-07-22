@@ -1,101 +1,101 @@
 .carousel-container {
-    position: relative; /* Ensure buttons are positioned relative to this container */
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  .carousel .carousel-slider {
-    display: flex;
-    align-items: center;
-  }
-  
-  .carousel .carousel-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 5%; /* Adjust based on your needs */
-  }
-  
-  .carousel .carousel-item img {
-    width: 100%;
-    height: auto;
-    max-height: 200px; /* Adjust based on your needs */
-  }
-  
+  position: relative;
+  width: 90%;
+  max-width: 1200px; /* Maximum width for larger screens */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.carousel .carousel-slider-container {
+  display: flex;
+  align-items: center;
+}
+
+.carousel .carousel-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Increased for better visual impact */
+  object-fit: cover; /* Ensures the image covers the area nicely */
+  border-radius: 8px; /* Rounded corners for a modern look */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  margin-top: 20px; /* Space between carousel and buttons */
+  gap: 10px; /* Space between buttons */
+}
+
+.button-container .btn {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px; /* Rounded corners for buttons */
+  transition: all 0.3s ease;
+}
+
+.button-container .btn1 {
+  background-color: #537AD2;
+  border-color: #537AD2;
+}
+
+.button-container .btn2 {
+  background-color: #F2651C;
+  border-color: #F2651C;
+}
+
+.button-container .btn3 {
+  background-color: #805F9E;
+  border-color: #805F9E;
+}
+
+.button-container .btn:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.button-container .btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .button-container {
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%); /* Center horizontally */
-    display: flex;
+    flex-direction: column;
+    margin-top: 15px; /* Adjusted for smaller screens */
   }
-  
-  .button-container .btn1 {
-    background-color: #537AD2;
-    color: white;
 
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 0; /* Remove border-radius */
-    transition: all 0.3s ease; /* Smooth transition for size changes */
+  .button-container .btn {
+    font-size: 14px;
+    padding: 8px 16px;
   }
-  .button-container .btn2 {
-    background-color: #F2651C;
-    color: white;
 
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 0; /* Remove border-radius */
-    transition: all 0.3s ease; /* Smooth transition for size changes */
+  .carousel .carousel-item {
+    padding: 0 2%;
   }
-  .button-container .btn3 {
-    background-color: #805F9E;
-    color: white;
 
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 0; /* Remove border-radius */
-    transition: all 0.3s ease; /* Smooth transition for size changes */
+  .carousel-container {
+    width: 100%;
   }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .button-container .btn {
-      font-size: 12px; /* Smaller button text */
-      padding: 8px 16px; /* Adjust padding to fit the smaller size */
-    }
-  
-    .carousel .carousel-item {
-      padding: 0 2%; /* Less padding on smaller screens */
-    }
-    
-    .carousel-container {
-      width: 100%; /* Adjust width on smaller screens */
-    }
+}
+
+@media (max-width: 480px) {
+  .button-container .btn {
+    font-size: 12px;
+    padding: 6px 12px;
   }
-  
-  @media (max-width: 480px) {
-    .button-container .btn {
-      font-size: 10px; /* Even smaller button text */
-      padding: 6px 12px; /* Smaller padding for very small screens */
-    }
-  
-    .carousel .carousel-item img {
-      max-height: 150px; /* Reduce image height on very small screens */
-    }
-    
-    .carousel-container {
-      width: 100%; /* Adjust width on very small screens */
-    }
+
+  .carousel .carousel-item img {
+    max-height: 300px; /* Adjusted for very small screens */
   }
-  
-  @media(max-width: 689px)
-  {
-    .button-container {
-      display: none;
-    }
-  }
+}
