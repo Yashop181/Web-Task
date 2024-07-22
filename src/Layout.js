@@ -34,6 +34,7 @@ const Layout = () => {
         <Offer/>
         
         <Customer/>
+        <br/>
         <Croud/>
         <br/>
         <AnotherImages/>
