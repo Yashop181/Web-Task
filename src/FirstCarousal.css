@@ -71,7 +71,7 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .button-container {
-    flex-direction: column;
+
     margin-top: 15px; /* Adjusted for smaller screens */
   }
 
@@ -96,6 +96,8 @@
   }
 
   .carousel .carousel-item img {
-    max-height: 300px; /* Adjusted for very small screens */
+    max-height: 300px;
   }
+
+
 }

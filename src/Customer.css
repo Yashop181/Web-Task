@@ -31,12 +31,12 @@
 
 
 
-
+/*  Style for the sliders */
   
   .slider-container {
     margin: 0 auto;
     padding: 1%;
-    width: 80%;
+    width: 100%;
   }
   
   .slide {
@@ -77,7 +77,7 @@
     color: #444; /* Matching color for consistency */
     background-color: #ff4d4d; /* Softer red for a more polished look */
     border-radius: 50%; /* Add rounded corners */
-    padding: 10px; /* Add padding for better size */
+    padding: 2px; /* Add padding for better size */
   }
   
   .slick-prev:hover, .slick-next:hover {
