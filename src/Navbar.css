@@ -49,3 +49,23 @@
     background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 30"%3E%3Cpath stroke="%23007bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 7h20M5 15h20M5 23h20" /%3E%3C/svg%3E');
   }
   
+  /* Navbar.css */
+.custom-navbar {
+  position: relative;
+}
+
+.mega-menu .dropdown-menu {
+  width: 50vw;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 2rem;
+
+  background-color: #fff; /* Adjust background color as needed */
+  border: none; /* Remove border if needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
+
+.mega-menu .dropdown-item {
+  margin-bottom: 0.5rem;
+}

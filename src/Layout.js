@@ -25,22 +25,25 @@ const Layout = () => {
       <FirstCarousal/>
       <br/>
       <div className='all-mine'>
-        <Carousal/>
-        <AnotherImage/>
-        <br/>
-        <br/>
-        <NewCarousal/>
         
-        <Offer/>
+      <Offer/>
         
         <Customer/>
         <br/>
         <Croud/>
         <br/>
-        <AnotherImages/>
+        <AnotherImage/>
+        <Carousal/>
+        <br/>
+        <Ac/>
+        <br/>
+        <NewCarousal/>
+        
+        <br/>
+ 
+
 
         <Electronics/>
-        <Ac/>
         <Value/>
         <Deals/>
         <Ac/>
