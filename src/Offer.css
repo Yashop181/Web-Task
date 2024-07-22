@@ -84,7 +84,7 @@
 }
 
 .video-call img {
-    width: 90%; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
 
 }
 @media (max-width: 475px) {

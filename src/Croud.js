@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import './Cround.css'; // Import your custom CSS for styling
 import { FaKickstarter } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
 const Croud = () => {
   const settings = {
     dots: false,
@@ -60,10 +61,10 @@ const Croud = () => {
     <>
     <div className='open-crowd'>
     <div className="customer-container">
-      <FaKickstarter  className="customer-icon" />
+      <FaStar  className="customers-icon" />
       <div className="customer-text">
-        <div className="customer-title">Our Customers Love</div>
-        <div className="customer-subtitle">OUR PRODUCTS AND SERVICES</div>
+        <div className="customer-title">Crowd Favourites</div>
+        <div className="customer-subtitle">To Buy</div>
       </div>
     </div>
         <div className="carousel-container">

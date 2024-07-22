@@ -37,3 +37,15 @@
 .open-crowd{
     background-color: #86B2E9;
 }
+.customers-icon
+{
+  background-color: white;
+  font-size: 50px; /* Adjust the size as needed */
+  margin-right: 10px; /* Adjust the spacing as needed */
+  border-radius: 20px;
+  color: #86B2E9;
+}
+.customer-container
+{
+  padding: 1%;
+}

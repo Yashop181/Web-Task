@@ -21,9 +21,10 @@ const Layout = () => {
   return (
     <div>
         <Navbar/>
+        <br/>
 
       <FirstCarousal/>
-      <br/>
+      
       <div className='all-mine'>
         
       <Offer/>
@@ -33,20 +34,14 @@ const Layout = () => {
         <Croud/>
         <br/>
         <AnotherImage/>
-        <Carousal/>
-        <br/>
-        <Ac/>
-        <br/>
-        <NewCarousal/>
-        
-        <br/>
- 
-
 
         <Electronics/>
+        <Ac/>
         <Value/>
         <Deals/>
         <Ac/>
+        {/* <NewCarousal/>
+        <Carousal/> */}
         <br/>
         <Footer/>
         <Lastfooter/>
