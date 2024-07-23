@@ -62,10 +62,13 @@
   padding: 2rem;
 
   background-color: #fff; /* Adjust background color as needed */
-  border: none; /* Remove border if needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+  border: 1px solid #007bff; /* Remove border if needed */
+  box-shadow: 0 1px 2px #007bff; /* Optional: add shadow for better visibility */
+  
 }
 
 .mega-menu .dropdown-item {
   margin-bottom: 0.5rem;
 }
+
+

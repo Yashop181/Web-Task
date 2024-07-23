@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 import './Cround.css'; // Import your custom CSS for styling
-import { FaKickstarter } from "react-icons/fa6";
+
 import { FaStar } from "react-icons/fa";
 const Croud = () => {
   const settings = {

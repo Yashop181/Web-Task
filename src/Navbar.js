@@ -32,7 +32,7 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1" className="nav-item"><FaMapLocationDot /> Delivery <br/> to 560068</Nav.Link>
+            <Nav.Link href="#action1" className="nav-item"><FaMapLocationDot /> Delivery to 560068</Nav.Link>
 
             
             <NavDropdown title={<span><FaCheckCircle /> Buy</span>} id="navbarScrollingDropdown" className="nav-dropdown mega-menu">
@@ -110,11 +110,13 @@ function NavScrollExample() {
             />
             <Button variant="outline-success" className="search-button">Search</Button>
           </Form>
+          <div className='three-j'>
           <Nav className="ms-3">
             <Nav.Link href="#action2" className="nav-icon"><FaUser /></Nav.Link>
             <Nav.Link href="#action2" className="nav-icon"><FaHeart /></Nav.Link>
             <Nav.Link href="#action2" className="nav-icon"><FaShoppingCart /></Nav.Link>
           </Nav>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

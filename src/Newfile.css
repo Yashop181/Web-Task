@@ -1,0 +1,38 @@
+.card-body
+{
+    padding: 10px;
+}
+.top-class
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    margin-left: 240px;
+}
+.top-class img
+{
+    width: 100%;
+    border-radius: 20px;
+    height: 400px;
+}
+.shorts-main
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.shorts-icon
+{
+    color: red;
+}
+
+.friday
+{
+    display: flex;
+}
+.card-body
+{
+    display: flex;
+    margin-top: 0px;
+}

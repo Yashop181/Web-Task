@@ -1,0 +1,71 @@
+.card-body {
+    padding: 10px;
+  }
+  
+  .shorts-main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .shorts-icon {
+    color: red;
+  }
+  .day {
+    display: flex;  
+    margin-left: 34%;
+
+  }
+  .day1 {
+    display: flex;
+
+  }
+  .friday {
+    display: flex;
+  }
+.card-body
+{
+    display: flex;
+    gap: 10px;
+}
+.second-description
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+  .card-body img
+  {
+    border-radius: 10px;
+  }
+  .all-together
+  {
+    display: flex;
+  }
+
+
+  .all-together {
+    display: flex;
+  }
+  
+  .newfiles-container {
+    flex: 3; /* Adjust this value to control the width ratio */
+
+  }
+  
+  .sidepart-container {
+    flex: 1; /* Adjust this value to control the width ratio */
+  }
+  
+  .text-small
+  {
+    font-size: 12px;
+  }
+  .sidepart-container
+  {
+    margin-top: 140px;
+  }

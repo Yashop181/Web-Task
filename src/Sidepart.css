@@ -1,0 +1,27 @@
+.all-setting
+{
+    width: 100%;
+
+}
+.history
+{
+    display: flex;
+    line-height: 1;
+    gap: 20px;
+}
+.search-icon
+{
+    font-size: 30px;
+}
+.history p
+{
+    font-size: 20px;
+}
+.history-second
+{
+    display: flex;
+    line-height: 1;
+    gap: 20px;
+    
+    padding: 2px;
+}
